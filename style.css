@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    color: #333;
+}
+
+#startGame {
+    background-color: #007BFF; /* Blue background */
+    color: white; /* White text */
+    font-size: 18px; /* Font size */
+    padding: 15px 32px; /* Padding around the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+    display: block; /* Ensure the button is displayed */
+    margin: 20px auto; /* Center it with some margin */
+}
+
+#startGame:hover {
+    background-color: #0056b3; /* Darker blue when hovered */
+}
+
+#startGame:active {
+    background-color: #004085; /* Even darker blue when clicked */
+}
+
+
+#gameArea {
+    margin-top: 20px;
+}
+
+#questionCounter {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+    text-align: center;
+}
+
+#flagImage {
+    width: 300px;
+    height: auto;
+    margin: 20px 0;
+}
+
+/* Multiple-choice button styles */
+#options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.option {
+    background-color: rgb(79, 178, 248);
+    border: 2px solid #ccc;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+    min-width: 150px;
+}
+
+.option:hover {
+    background-color: #e0e0e0;
+}
+
+/* Correct and wrong answer styles */
+.correct {
+    background-color: #28a745 !important;
+    color: white;
+    border-color: #1e7e34;
+}
+
+.wrong {
+    background-color: #dc3545 !important;
+    color: white;
+    border-color: #a71d2a;
+}
+
+#result {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+#score {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#playAgain {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    font-size: 18px; /* Font size */
+    padding: 15px 32px; /* Padding around the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+    display: block; /* Ensure the button is displayed */
+    margin: 20px auto; /* Center it with some margin */
+}
+
+#playAgain:hover {
+    background-color: #45a049; /* Darker green when hovered */
+}
+
+#playAgain:active {
+    background-color: #388e3c; /* Even darker green when clicked */
+}
+

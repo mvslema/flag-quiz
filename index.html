@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Flag</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Guess the Flag</h1>
+        <button id="startGame">Start Game</button>
+        <div id="gameArea" style="display: none;">
+            <img id="flagImage" src="" alt="Flag">
+            <div id="options"></div>
+            <p id="result"></p>
+            <p id="questionCounter">Question 1 / 10</p>
+            <p>Score: <span id="score">0</span></p>
+            <button id="playAgain" style="display: none;">Play Again</button>
+
+        </div>
+    </div>
+</body>
+</html>
